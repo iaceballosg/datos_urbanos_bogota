@@ -1,0 +1,21 @@
+# Dependencias del Proyecto Integrador — Catastro Bogotá
+#
+# Instalar con:
+#   pip install -r requirements.txt
+#
+# En Google Colab la mayoría ya está preinstalada; solo es necesario
+# actualizar scikit-learn si la versión es antigua:
+#   !pip install -q -U scikit-learn
+
+numpy==1.26.4
+pandas==2.2.3
+scikit-learn==1.5.2
+matplotlib==3.9.2
+seaborn==0.13.2
+
+# Dashboard interactivo (Fase 4)
+streamlit==1.40.1
+
+# Opcionales (descomentar si se usan XGBoost o SMOTE)
+# xgboost==2.1.1
+# imbalanced-learn==0.12.3

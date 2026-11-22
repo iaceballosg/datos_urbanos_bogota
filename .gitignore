@@ -1,0 +1,54 @@
+# ---------------------------------------------------------------------------
+# Python
+# ---------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+.ipynb_checkpoints/
+venv/
+.venv/
+env/
+
+# ---------------------------------------------------------------------------
+# Dataset completo (1.4 GB) — no se versiona por su tamaño.
+# Descárgalo desde el portal de Datos Abiertos (ver data/README.md).
+# La muestra sí se incluye en data/sample/.
+# ---------------------------------------------------------------------------
+data/TPREDIO.csv
+data/*.csv
+!data/sample/
+!data/sample/TPREDIO_sample.csv
+
+# ---------------------------------------------------------------------------
+# Artefactos generados (modelos, resultados, cachés)
+# ---------------------------------------------------------------------------
+artefactos/
+modelos/
+resultados/
+*.pkl
+*.joblib
+
+# ---------------------------------------------------------------------------
+# Informe, presentación, material de estudio y docs base (no se suben)
+# ---------------------------------------------------------------------------
+informe/
+docs/
+presentacion_sustentacion.pptx
+preparacion_sustentacion.md
+
+# ---------------------------------------------------------------------------
+# Entorno y editores
+# ---------------------------------------------------------------------------
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.log
+
+# ---------------------------------------------------------------------------
+# Google Colab / Jupyter
+# ---------------------------------------------------------------------------
+.colab/
+
+docs/
