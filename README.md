@@ -57,29 +57,6 @@ proyecto_datos_urbanos/
 └── README.md
 ```
 
-## 🚀 Ejecución en Google Colab
-
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/iaceballosg/proyecto_datos_urbanos/blob/main/notebooks/proyecto_catastro_bogota.ipynb)
-
-> abra el notebook directamente en Colab.
-
-### Opción A — Abrir el notebook directamente
-
-1. Sube este repositorio a GitHub.
-2. Haz clic en el botón "Open in Colab" o importa
-   `notebooks/proyecto_catastro_bogota.ipynb`.
-3. El notebook monta Google Drive, localiza el dataset y ejecuta todo el
-   pipeline de principio a fin.
-
-### Opción B — Clonar el repositorio en Colab
-
-```python
-!git clone https://github.com/TU_USUARIO/proyecto_datos_urbanos.git
-%cd proyecto_datos_urbanos
-```
-
-Luego abre `notebooks/proyecto_catastro_bogota.ipynb`.
-
 ### Sobre el dataset
 
 El archivo completo `TPREDIO.csv` (~1.4 GB) **no** se incluye en GitHub por su
