@@ -11,7 +11,6 @@ metodología **CRISP-DM**.
 | | |
 |---|---|
 | **Autor** | Ivan Alejandro Ceballos Galvis |
-| **Docente** | Fabian Castro Riveros |
 | **Asignatura** | Ciencia de Datos e Inteligencia Artificial |
 
 ---
@@ -60,9 +59,8 @@ proyecto_datos_urbanos/
 
 ## 🚀 Ejecución en Google Colab
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/TU_USUARIO/proyecto_datos_urbanos/blob/main/notebooks/proyecto_catastro_bogota.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/iaceballosg/proyecto_datos_urbanos/blob/main/notebooks/proyecto_catastro_bogota.ipynb)
 
-> Reemplaza `TU_USUARIO` por tu nombre de usuario de GitHub para que el botón
 > abra el notebook directamente en Colab.
 
 ### Opción A — Abrir el notebook directamente
@@ -133,3 +131,10 @@ si es necesario:
 Los datos provienen de fuentes públicas de Datos Abiertos (IDECA / Catastro
 Bogotá). El código de este repositorio se distribuye bajo licencia
 [MIT](https://opensource.org/licenses/MIT).
+
+## Reconocimientos
+
+Este proyecto fue desarrollado con el apoyo de un asistente de IA generativa
+(DeepSeek / DeepSeek Harness) para la generación y depuración de código y de
+documentación. El diseño, la verificación de resultados y las decisiones
+finales corresponden al autor.
